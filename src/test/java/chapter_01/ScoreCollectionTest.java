@@ -1,11 +1,9 @@
-package iloveyouboss_01;
+package chapter_01;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.jupiter.api.Assertions.*;
 
 class ScoreCollectionTest {
 
@@ -13,8 +11,8 @@ class ScoreCollectionTest {
     void test() {
         // given
         ScoreCollection scoreCollection = new ScoreCollection();
-        scoreCollection.add(() -> 5);
-        scoreCollection.add(() -> 7);
+        scoreCollection.add(() -> 0);
+        scoreCollection.add(() -> 0);
 
         // when
         int actualResult = scoreCollection.arithmeticMean();

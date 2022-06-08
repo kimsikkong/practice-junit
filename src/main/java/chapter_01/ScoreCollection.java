@@ -1,4 +1,4 @@
-package iloveyouboss_01;
+package chapter_01;
 
 import java.util.ArrayList;
 import java.util.List;
